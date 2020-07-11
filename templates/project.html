@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Diabeties diagnosis</title>
+  </head>
+  <body bgcolor="red">
+    <h1 style="font-size: 5vw " style="text-align: center;">Diabeties Diagnosis</h1>
+    <center>
+      <p>please input the following details:</p>
+
+      <form  action="{{ url_for('predict')}}", method="POST">
+
+        <label for="Pregnancies">Pregnancies:</label>
+        <input id='Pregnancies' type="number" name="p" placeholder = ""required><br>
+        <label for="Glucose">Glucose:</label>
+        <input id='Glucose'type="number" name="g" placeholder=""required><br>
+        <label for="BloodPressure">BloodPressure:</label>
+        <input id='BloodPressure'type="number" name="bp" placeholder="" required><br>
+        <label for="SkinThickness">SkinThickness:</label>
+        <input id='SkinThickness'type="number" name="s" placeholder = ""required><br>
+        <label for="Insulin">Insulin:</label>
+        <input id='Insulin'type="number" name="i" placeholder="" required><br>
+        <label for="BMI">BMI:</label>
+        <input id='BMI'type="number" name="b" placeholder="" step="0.01" required><br>
+        <label for="DiabetesPedigreeFunction">DiabetesPedigreeFunction:</label>
+        <input id='DiabetesPedigreeFunction'type="number" name="d" placeholder="" step="0.0001" required><br>
+        <label for="Age">Age:</label>
+        <input id='Age' type="number" name="a" placeholder="" required><br>
+        <p></p>
+        <input id="submit"type="submit" name="" value="SUBMIT">
+      </form>
+
+    </center>
+
+  </body>
+</html>
