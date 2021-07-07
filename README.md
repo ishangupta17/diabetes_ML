@@ -2,4 +2,5 @@ This is a Machine Learning project on diabetes.which takes many parameter as inp
 This folder also includes templates folder in which HTML files are there .
 This project also uses FLASK to create web framework.
 ![image](https://user-images.githubusercontent.com/43989286/124715503-b3989180-df20-11eb-97fd-6ef9874d8ded.png)
+![image](https://user-images.githubusercontent.com/43989286/124715605-ce6b0600-df20-11eb-8515-d3d08cf5e773.png)
 
